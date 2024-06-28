@@ -5,7 +5,6 @@ export default defineConfig({
   plugins: [react()],
   base: `/math-quiz`,
   build: {
-    chunkSizeWarningLimit: 1000,
     assetsDir: "assets",
   },
   server: {
