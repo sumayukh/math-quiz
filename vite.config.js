@@ -6,6 +6,5 @@ export default defineConfig({
   base: `/math-quiz/`,
   build: {
     outDir: "dist",
-    assetsDir: ".",
   },
 });
