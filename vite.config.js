@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: `/math-quiz/`,
   build: {
-    outDir: "dist",
+    outDir: "build",
     assetsDir: ".",
   },
 });
