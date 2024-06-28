@@ -38,7 +38,7 @@ export const HomePage = () => {
     <Router>
       <Layout activePulse={activePulse}>
         <Routes>
-          <Route path="/" element={toggleComponent(activeId)}></Route>
+          <Route path="/math-quiz/" element={toggleComponent(activeId)}></Route>
         </Routes>
       </Layout>
     </Router>
