@@ -8,7 +8,6 @@ export default defineConfig({
     outDir: "dist",
     assetsDir: "assets",
     copyPublicDir: true,
-    sourcemap: true,
     cssCodeSplit: true,
     minify: true,
   },
