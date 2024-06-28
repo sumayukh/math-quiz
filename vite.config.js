@@ -3,23 +3,16 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: `/math-quiz/`,
+  base: `/math-quiz`,
   build: {
-    outDir: "dist",
+    chunkSizeWarningLimit: 1000,
     assetsDir: "assets",
-    copyPublicDir: true,
-    cssCodeSplit: true,
-    minify: true,
   },
   server: {
-    host: "localhost",
     port: 5000,
-    strictPort: true,
     open: true,
   },
   preview: {
     port: 4000,
-    strictPort: true,
   },
-  appType: "spa",
 });
